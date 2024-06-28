@@ -1,0 +1,96 @@
+.grid {
+  margin: 225px 0 0;
+  position: relative;
+  padding-left: 0%;
+  padding-top: 2%;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: large;
+}
+
+h1 {
+  position: absolute;
+  top: 0%;
+  left: 65%;
+  font-family: "Courier New", Courier, monospace;
+}
+
+p {
+  text-align: left;
+  position: absolute;
+  top: 6%;
+  left: 67%;
+}
+
+p1 {
+  position: absolute;
+  top: 22%;
+  left: 16%;
+  color: red;
+}
+
+p2 {
+  color: blue;
+}
+
+.iconSize {
+  width: 23px;
+  height: 23px;
+}
+
+.button-container {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.button-container1 {
+  position: absolute;
+  top: 15%;
+  left: 30%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.button-container2 {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.button {
+  display: block;
+  height: 60px;
+  width: 186px;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 8px;
+  background-image: linear-gradient(to right, green, blue);
+  background-position: right bottom;
+  background-size: 200%;
+  font-family: "Courier New", Courier, monospace;
+  border: none;
+  transition: 0.4s;
+}
+
+.button:hover {
+  background-position: left bottom;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button:active {
+  background-image: linear-gradient(to left, red, purple);
+}
